@@ -1,6 +1,6 @@
 {
   "name": "@ddrive/zip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library For Zipping dDrives.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
