@@ -1,0 +1,30 @@
+{
+  "name": "@ddrive/zip",
+  "version": "0.1.1",
+  "description": "Library For Zipping dDrives.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "@dpack/api": "dpacks/api#master",
+    "@dwcore/dws2wrap": "dwcore/dws2wrap#master",
+    "through2-concurrent": "^1.1.1",
+    "yazl": "^2.4.2"
+  },
+  "devDependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dwcore/dws2-chain": "dwcore/dws2-chain#master",
+    "tape": "^4.6.3",
+    "tempy": "^0.1.0",
+    "yauzl": "^2.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
