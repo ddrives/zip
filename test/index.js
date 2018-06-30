@@ -4,7 +4,7 @@ const yauzl = require('yauzl')
 const tempy = require('tempy')
 const fs = require('fs')
 const path = require('path')
-const dws2Chain = require('@dwcore/dws2-chain')
+const dws2Chain = require('@dwcore/dws-chain')
 const dpackapi = require('@dpack/api')
 const toZipStream = require('../')
 
